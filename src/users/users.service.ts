@@ -73,7 +73,7 @@ export class UsersService {
     } catch (error) {
       return {
         ok: false,
-        error,
+        error: 'Login is fail.',
       };
     }
   }
@@ -99,6 +99,12 @@ export class UsersService {
   ): Promise<EditProfileOutput> {
     try {
       const user = await this.users.findOne(userId);
+      if (!user) {
+        return {
+          ok: false,
+          error: 'user not found',
+        };
+      }
       if (email) {
         user.email = email;
       }
