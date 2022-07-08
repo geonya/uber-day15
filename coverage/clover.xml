@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657284907916" clover="3.2.0">
-  <project timestamp="1657284907917" name="All files">
-    <metrics statements="136" coveredstatements="133" conditionals="23" coveredconditionals="23" methods="20" coveredmethods="17" elements="179" coveredelements="173" complexity="0" loc="136" ncloc="136" packages="3" files="3" classes="3"/>
+<coverage generated="1657286228898" clover="3.2.0">
+  <project timestamp="1657286228898" name="All files">
+    <metrics statements="136" coveredstatements="136" conditionals="23" coveredconditionals="23" methods="20" coveredmethods="20" elements="179" coveredelements="179" complexity="0" loc="136" ncloc="136" packages="3" files="3" classes="3"/>
     <package name="jwt">
-      <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="jwt.service.ts" path="/Users/geony/works/uber-day15/src/jwt/jwt.service.ts">
-        <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
       </file>
     </package>
     <package name="podcast">
